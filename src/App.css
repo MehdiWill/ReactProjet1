@@ -1,0 +1,100 @@
+.App {
+  font-family: "Arcade classic", Helvetica, Arial, sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  outline: 6px outset beige;
+  outline-offset: 5px;
+  height: 55vh;
+  width: 8vw;
+  border: 6px outset rgba(164,0,0,0.49);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  outline: 6px outset beige;
+  outline-offset: 5px;
+  height: 55vh;
+  width: 10vw;
+  border: 6px outset rgba(164,0,0,0.49);
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@font-face {
+  font-family: "Arcade classic";
+	src: url('fonts/ARCADECLASSIC.TTF');
+}
+
+
+.boss{
+ 
+}
+
+.fight {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.spell {
+  
+}
+
+.shop{
+display:flex;
+}
+
+.money {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+h2{
+  font-size: 25px;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.center{
+  display:flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 30%;
+
+}
+
+
+.background {
+    background-image:url("http://i.imgur.com/iGLNb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
+    border: 6px outset rgba(164,0,0,0.49);
+}
+
+.fight{
+  padding-top:15px;
+}
